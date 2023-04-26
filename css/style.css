@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.main-content{
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(173, 108, 234);
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 300%;
+    color: rgb(255, 255, 255);
+}
+.header >*{
+ margin-top: 1%;
+}
+.header h1{
+    letter-spacing: 1px;
+}
+.header p{
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.box{
+    height: 50vh;
+    background-color: #ffff;
+    width: 15%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.box h2{
+    color: rgb(95, 165, 95);
+    text-transform: uppercase;
+
+}
+.box h3{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 5vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: -2vw;
+    line-height:2.5vw;
+}
+.box p:nth-child(2){
+    font-size: 20px;
+    text-align: left;
+    margin-left: 1vw;
+    font-weight: 600;
+}
+.box p:nth-child(3){
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.big p:nth-child(3){
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0.8vw;
+    font-weight: 600;
+    width: 100%;
+}
+
+.big p:nth-child(4){
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 60px;
+}
+.box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2vw;
+    height: 10vh;
+}
+.box li{
+    color: rgb(139, 139, 138);
+}
+.box button{
+ width: 50%;
+ margin: 0 auto;
+ height: 5vh;
+ border-radius: 30px;
+ border: none;
+ background-color: rgb(113, 179, 113);
+ color: #ffff;
+ font-size: 20px;
+}
+.box button:hover{
+    background-color: rgb(148, 176, 148);
+    box-shadow: 1px 1px 2px 1px rgb(115, 125, 115);
+}
